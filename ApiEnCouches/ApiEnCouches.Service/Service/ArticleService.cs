@@ -1,9 +1,9 @@
 ﻿namespace ApiEnCouches.Service.Service
 {
-    using ApiEnCouches.Service.IService;
+    using System.Threading.Tasks;
     using ApiEnCouches.DataAccess.IDataAccess;
 
-    public class ArticleService : IArticleService
+    public class ArticleService
     {
         private readonly IArticleDataAccess _dataAccess;
 
@@ -12,10 +12,14 @@
             _dataAccess = dataAccess;
         }
 
-        public void AddArticle(string title, string content)
+        public Task AddArticleAsync(string title, string content)
         {
             // Basic validation could go here (e.g., check null/empty)
-            _dataAccess.AddArticle(title, content);
+            return _dataAccess.AddArticleAsyn(new DataAccess.Entity.Article
+            {
+                Title = title,
+                Content = content
+            });
         }
     }
 }
