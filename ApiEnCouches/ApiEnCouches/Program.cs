@@ -4,11 +4,19 @@ using ApiEnCouches.DataAccess.DataAccess;
 using ApiEnCouches.Service.IService;
 using ApiEnCouches.Service.Service;
 
+// Import des seeders
 using ApiEnCouches.DataAccess.Seed.ArticleSeeder;
 using ApiEnCouches.DataAccess.Seed.DbSeeder;
 using ApiEnCouches.DataAccess.Seed.IDbSeeder;
 
+// Import des outils microsoft
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+
+// Import microsoft JWT
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
@@ -26,8 +34,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// Builder pour DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(connectionString));
+
+// Builder pour Identity
+builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+    .AddEntityFrameworkStores<AppDbContext>();
 
 var app = builder.Build();
 

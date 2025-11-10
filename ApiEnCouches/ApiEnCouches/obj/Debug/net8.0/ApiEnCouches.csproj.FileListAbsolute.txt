@@ -261,3 +261,12 @@ G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches
 G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\obj\Debug\net8.0\ApiEnCouches.pdb
 G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\obj\Debug\net8.0\ApiEnCouches.genruntimeconfig.cache
 G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\obj\Debug\net8.0\ref\ApiEnCouches.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
