@@ -1,18 +1,18 @@
 ﻿namespace ApiEnCouches.Service.IService
 {
-    using ApiEnCouches.DataAccess.IDataAccess;
     using ApiEnCouches.Service.DataTransferObject;
-    using ApiEnCouches.DataAccess.Entity;
+    using System.Collections.Generic;
     using System.Threading.Tasks;
-
 
     public interface IArticleService
     {
-        Task<List<Article>> GetAllArticleAsync();
-        Task<ArticleDTO?> AddArticleAsync(CreateArticleDTO createArticleDTO);
-        Task<ArticleDTO?> CreateArticleAsync(CreateArticleDTO createArticleDTO);
-        Task<ArticleDTO> GetArticleByIdAsync(UpdateArticleDTO articleDTO);
-        Task<ArticleDTO?> UpdateArticleAsync(UpdateArticleDTO updateArticleDTO);
-        Task<bool> DeleteArticleAsync(int id);
+        // New API matching the service implementation and controller usage
+        Task<IList<ArticleDTO>> GetAllAsync();
+        Task<ArticleDTO?> GetByIdAsync(int id);
+        Task<ArticleDTO> CreateAsync(CreateArticleDTO createDto);
+        Task<ArticleDTO?> UpdateAsync(UpdateArticleDTO updateDto);
+        Task<bool> DeleteAsync(int id);
+
+    // (Removed older/alternate names to match current implementation)
     }
 }

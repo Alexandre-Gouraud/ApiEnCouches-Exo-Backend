@@ -20,6 +20,12 @@
             return await _context.Articles.ToListAsync();
         }
 
+        // New API compatibility methods expected by IArticleDataAccess
+        public async Task<List<Article>> GetAllAsync()
+        {
+            return await GetAllArticleAsync();
+        }
+
         public async Task<Article> AddArticleAsync(Article article) // Add a new article
         {
             var newArticle = article;
@@ -37,6 +43,11 @@
         public async Task<Article?> GetArticleByIdAsync(int id)
         {
             return await _context.Articles.FindAsync(id);
+        }
+
+        public async Task<Article?> GetByIdAsync(int id)
+        {
+            return await GetArticleByIdAsync(id);
         }
 
         public async Task<Article> CreateAsync(Article article)
