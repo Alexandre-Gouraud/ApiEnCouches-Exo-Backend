@@ -1,0 +1,14 @@
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\bin\Debug\net8.0\ApiEnCouches.DataAccess.deps.json
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\bin\Debug\net8.0\ApiEnCouches.DataAccess.runtimeconfig.json
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\bin\Debug\net8.0\ApiEnCouches.DataAccess.dll
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\bin\Debug\net8.0\ApiEnCouches.DataAccess.pdb
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\ApiEnCouches.DataAccess.csproj.AssemblyReference.cache
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\ApiEnCouches.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\ApiEnCouches.DataAccess.AssemblyInfoInputs.cache
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\ApiEnCouches.DataAccess.AssemblyInfo.cs
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\ApiEnCouches.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\ApiEnCouches.DataAccess.dll
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\refint\ApiEnCouches.DataAccess.dll
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\ApiEnCouches.DataAccess.pdb
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\ApiEnCouches.DataAccess.genruntimeconfig.cache
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.DataAccess\obj\Debug\net8.0\ref\ApiEnCouches.DataAccess.dll

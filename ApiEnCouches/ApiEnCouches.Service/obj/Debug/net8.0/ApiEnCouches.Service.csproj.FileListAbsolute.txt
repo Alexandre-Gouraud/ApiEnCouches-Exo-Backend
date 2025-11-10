@@ -1,0 +1,15 @@
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.Service.deps.json
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.Service.dll
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.Service.pdb
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.DataAccess.dll
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.DataAccess.pdb
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.csproj.AssemblyReference.cache
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.AssemblyInfoInputs.cache
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.AssemblyInfo.cs
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.csproj.CoreCompileInputs.cache
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCou.E5C5A823.Up2Date
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.dll
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\refint\ApiEnCouches.Service.dll
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.pdb
+C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ref\ApiEnCouches.Service.dll

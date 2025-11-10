@@ -1,0 +1,246 @@
+{
+  "format": 1,
+  "restore": {
+    "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.csproj": {}
+  },
+  "projects": {
+    "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj",
+        "projectName": "ApiEnCouches.DataAccess",
+        "projectPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\AlexandreGOURAUD\\.nuget\\packages\\",
+        "outputPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlexandreGOURAUD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\ApiEnCouches.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\ApiEnCouches.Service.csproj",
+        "projectName": "ApiEnCouches.Service",
+        "projectPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\ApiEnCouches.Service.csproj",
+        "packagesPath": "C:\\Users\\AlexandreGOURAUD\\.nuget\\packages\\",
+        "outputPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlexandreGOURAUD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj": {
+                "projectPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.csproj",
+        "projectName": "ApiEnCouches",
+        "projectPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.csproj",
+        "packagesPath": "C:\\Users\\AlexandreGOURAUD\\.nuget\\packages\\",
+        "outputPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\AlexandreGOURAUD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\ApiEnCouches.Service.csproj": {
+                "projectPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\ApiEnCouches.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
