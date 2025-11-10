@@ -14,8 +14,9 @@ namespace ApiEnCouches.DataAccess.Seed.ArticleSeeder
 
                 var articles = new List<Article>
             {
-                new Article { Title = "First Article", Content = "Content of the first article." },
-                new Article { Title = "Second Article", Content = "Content of the second article." },
+                new Article { Title = "Seed 1 - ", Content = "Article 1" },
+                new Article { Title = "Seed 2 - ", Content = "Article 2" },
+                new Article { Title = "Seed 3 - ", Content = "Article 3" },
             };
 
                 context.Articles.AddRange(articles);
