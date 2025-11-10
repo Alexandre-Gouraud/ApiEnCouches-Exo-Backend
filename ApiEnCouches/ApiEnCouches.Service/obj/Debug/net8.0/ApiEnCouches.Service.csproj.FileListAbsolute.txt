@@ -13,3 +13,18 @@ C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\A
 C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\refint\ApiEnCouches.Service.dll
 C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.pdb
 C:\Users\minin\source\repos\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ref\ApiEnCouches.Service.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.Service.deps.json
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.Service.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.Service.pdb
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.DataAccess.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\bin\Debug\net8.0\ApiEnCouches.DataAccess.pdb
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.csproj.AssemblyReference.cache
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.GeneratedMSBuildEditorConfig.editorconfig
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.AssemblyInfoInputs.cache
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.AssemblyInfo.cs
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.csproj.CoreCompileInputs.cache
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCou.E5C5A823.Up2Date
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\refint\ApiEnCouches.Service.dll
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ApiEnCouches.Service.pdb
+G:\04 - Projet\01 - Projet\Module Backend\ApiEnCouches\ApiEnCouches\ApiEnCouches.Service\obj\Debug\net8.0\ref\ApiEnCouches.Service.dll
