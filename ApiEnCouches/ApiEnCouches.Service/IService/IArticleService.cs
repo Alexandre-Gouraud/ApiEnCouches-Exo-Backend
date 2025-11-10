@@ -2,5 +2,6 @@
 {
     public interface IArticleService
     {
+        void AddArticle(string title, string content);
     }
 }
