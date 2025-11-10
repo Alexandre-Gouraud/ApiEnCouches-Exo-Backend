@@ -9,8 +9,10 @@
     public interface IArticleService
     {
         Task<List<Article>> GetAllArticleAsync();
-        Task<Article> AddArticleAsync(Article article);
-        Task<Article?> GetArticleByIdAsync(int id);
+        Task<ArticleDTO?> AddArticleAsync(CreateArticleDTO createArticleDTO);
+        Task<ArticleDTO?> CreateArticleAsync(CreateArticleDTO createArticleDTO);
+        Task<ArticleDTO> GetArticleByIdAsync(UpdateArticleDTO articleDTO);
+        Task<ArticleDTO?> UpdateArticleAsync(UpdateArticleDTO updateArticleDTO);
         Task<bool> DeleteArticleAsync(int id);
     }
 }

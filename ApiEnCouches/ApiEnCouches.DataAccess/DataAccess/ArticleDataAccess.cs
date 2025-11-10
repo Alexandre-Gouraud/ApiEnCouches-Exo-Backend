@@ -39,7 +39,21 @@
             return await _context.Articles.FindAsync(id);
         }
 
-        public async Task<bool> DeleteArticleAsync(int id)
+        public async Task<Article> CreateAsync(Article article)
+        {
+            _context.Articles.Add(article);
+            await _context.SaveChangesAsync();
+            return article;
+        }
+
+        public async Task<Article> UpdateAsync(Article article)
+        {
+            _context.Articles.Update(article);
+            await _context.SaveChangesAsync();
+            return article;
+        }
+
+        public async Task<bool> DeleteAsync(int id)
         {
             var article = await _context.Articles.FindAsync(id);
             if (article == null)
@@ -50,6 +64,11 @@
             _context.Articles.Remove(article);
             await _context.SaveChangesAsync();
             return true;
+        }
+
+        public async Task<bool> DeleteArticleAsync(int id)
+        {
+            return await DeleteAsync(id);
         }
 
     }
