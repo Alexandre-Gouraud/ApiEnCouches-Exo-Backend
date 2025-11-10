@@ -4,6 +4,10 @@ using ApiEnCouches.DataAccess.DataAccess;
 using ApiEnCouches.Service.IService;
 using ApiEnCouches.Service.Service;
 
+using ApiEnCouches.DataAccess.Seed.ArticleSeeder;
+using ApiEnCouches.DataAccess.Seed.DbSeeder;
+using ApiEnCouches.DataAccess.Seed.IDbSeeder;
+
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -12,6 +16,9 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 // Add services to the container.
 builder.Services.AddScoped<IArticleDataAccess, ArticleDataAccess>();
 builder.Services.AddScoped<IArticleService, ArticleService>();
+
+builder.Services.AddScoped<IDbSeeder, ArticleSeeder>();
+builder.Services.AddScoped<DbSeeder>();
 
 
 builder.Services.AddControllers();
@@ -33,10 +40,19 @@ if (app.Environment.IsDevelopment())
 
 using (var scope = app.Services.CreateScope())
 {
+    var services = scope.ServiceProvider;
+    var context = services.GetRequiredService<AppDbContext>();
+    var seeder = scope.ServiceProvider.GetRequiredService<IDbSeeder>();
+    
+
+    var isProduction = app.Environment.IsProduction();
+
     var db = scope.ServiceProvider.GetRequiredService<AppDbContext>();
 
     // Applique toutes les migrations manquantes
     db.Database.Migrate();
+
+    await seeder.SeedAsync(context, app.Environment.IsProduction());
 }
 
 app.UseAuthorization();

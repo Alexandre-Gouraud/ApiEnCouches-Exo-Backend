@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ApiEnCouches.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1664db4f26f292f68508a2fce0b739fb8d0b42c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f0e6b3454287cf88ab0003d2388f7b1fb3fb8183")]
 [assembly: System.Reflection.AssemblyProductAttribute("ApiEnCouches.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ApiEnCouches.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
