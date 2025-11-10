@@ -20,8 +20,7 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(connectionString)
-);
+    options.UseSqlite(connectionString));
 
 var app = builder.Build();
 
