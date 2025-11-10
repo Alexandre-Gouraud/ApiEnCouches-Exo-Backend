@@ -1,4 +1,8 @@
 using ApiEnCouches.DataAccess;
+using ApiEnCouches.DataAccess.IDataAccess;
+using ApiEnCouches.DataAccess.DataAccess;
+using ApiEnCouches.Service.IService;
+using ApiEnCouches.Service.Service;
 
 using Microsoft.EntityFrameworkCore;
 
@@ -9,6 +13,9 @@ var connectionString = builder.Configuration.GetConnectionString("DefaultConnect
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<AppDbContext>();
+// Register application services and data-access
+builder.Services.AddScoped<IArticleDataAccess, ArticleDataAccess>();
+builder.Services.AddScoped<IArticleService, ArticleService>();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
