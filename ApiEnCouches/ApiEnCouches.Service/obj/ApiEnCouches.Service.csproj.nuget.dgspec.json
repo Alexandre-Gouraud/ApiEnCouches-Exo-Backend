@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\ApiEnCouches.Service.csproj": {}
+    "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.Service/ApiEnCouches.Service.csproj": {}
   },
   "projects": {
-    "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj": {
+    "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.DataAccess/ApiEnCouches.DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj",
+        "projectUniqueName": "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.DataAccess/ApiEnCouches.DataAccess.csproj",
         "projectName": "ApiEnCouches.DataAccess",
-        "projectPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj",
-        "packagesPath": "C:\\Users\\AlexandreGOURAUD\\.nuget\\packages\\",
-        "outputPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\obj\\",
+        "projectPath": "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.DataAccess/ApiEnCouches.DataAccess.csproj",
+        "packagesPath": "/home/alexandre-gouraud/.nuget/packages/",
+        "outputPath": "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.DataAccess/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AlexandreGOURAUD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/alexandre-gouraud/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -96,26 +96,36 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/alexandre-gouraud/dotnet/sdk/9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\ApiEnCouches.Service.csproj": {
+    "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.Service/ApiEnCouches.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\ApiEnCouches.Service.csproj",
+        "projectUniqueName": "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.Service/ApiEnCouches.Service.csproj",
         "projectName": "ApiEnCouches.Service",
-        "projectPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\ApiEnCouches.Service.csproj",
-        "packagesPath": "C:\\Users\\AlexandreGOURAUD\\.nuget\\packages\\",
-        "outputPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.Service\\obj\\",
+        "projectPath": "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.Service/ApiEnCouches.Service.csproj",
+        "packagesPath": "/home/alexandre-gouraud/.nuget/packages/",
+        "outputPath": "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.Service/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\AlexandreGOURAUD\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/alexandre-gouraud/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -127,8 +137,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj": {
-                "projectPath": "G:\\04 - Projet\\01 - Projet\\Module Backend\\ApiEnCouches\\ApiEnCouches\\ApiEnCouches.DataAccess\\ApiEnCouches.DataAccess.csproj"
+              "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.DataAccess/ApiEnCouches.DataAccess.csproj": {
+                "projectPath": "/media/alexandre-gouraud/Disque/04 - Projet/01 - Projet/Module Backend/ApiEnCouches/ApiEnCouches/ApiEnCouches.DataAccess/ApiEnCouches.DataAccess.csproj"
               }
             }
           }
@@ -159,12 +169,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.22, 8.0.22]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/home/alexandre-gouraud/dotnet/sdk/9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
