@@ -34,6 +34,10 @@ logs/
 *.seed
 *.pid.lock
 
+# SQLite temporary files
+*.db-shm
+*.db-wal
+
 # Test results
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
